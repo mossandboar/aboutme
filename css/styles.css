@@ -22,6 +22,7 @@
 h1{
 font-family: 'Old Standard TT', serif;
 font-weight:400;
+color: black;
 }
 .kala-font{
   font-family: 'Erica One', cursive;
@@ -118,11 +119,43 @@ font-weight:800;
   padding-right:250px;
 }
 
+img  .masthead{
+  width: 358px; 
+  height: 358px; 
+  border-radius:25%;
+}
+{
 
+}
+/**-- css for responsive sizing  --**/
 
+@media only screen and (max-width: 550px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
 
-
-
+@media only screen and (max-width: 550px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .kala-font{
+      font-size: 80px
+    }
+    section p .text {
+      padding: o auto;
+    }
+    .kala-font {
+      border:0px;
+    }
+    .text{
+      margin-left: -154px;
+      margin-right: -227px;
+    }
+}
 
 
 
